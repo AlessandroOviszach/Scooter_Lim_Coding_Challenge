@@ -1,0 +1,113 @@
+*{
+  margin: auto;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("html/immagini/background.jpg");
+  background-size: cover;
+  color: white;
+}
+
+body > div{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+  text-align: center;
+}
+
+header > h1{
+  color: rgb(0, 221, 0);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Pulsantiera */
+nav{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(0, 221, 0);
+}
+
+
+/* Corpo trasparente contenete tutto */
+.rettangolo{
+  padding: 100px;
+  border-radius: 20px;
+  margin-top: 30px;
+  width: 1275px;
+  height: 910px;
+  background-color: rgba(0, 0, 0, 0.60)
+}
+
+
+/* Adattamento immagine logo centrale */
+.img-logo{
+  width: 270px;
+}
+
+
+/* Inizio stacco tra sezioni */
+.Gino22{
+  padding-top: 25px;
+}
+
+.Mike24{
+  padding-top: 25px;
+}
+
+.Fede154{
+  padding-top: 25px;
+}
+/* Fine stacco tra sezioni */
+
+
+/* Inizio Barre stati di carica */
+.stato-carica-Gino22{
+  width: 400px;
+  height: 30px;
+ background-color: rgb(245, 180, 83);
+ border-radius: 5px 5px;
+ margin-left: 0px;
+}
+
+.stato-carica-Mike24{
+  width: 650px;
+  height: 30px;
+ background-color: rgb(0, 221, 0);
+ border-radius: 5px 5px;
+ margin-left: 0px;
+}
+
+.stato-carica-Fede154{
+  width: 150px;
+  height: 30px;
+ background-color: rgb(190, 65, 65);
+ border-radius: 5px 5px;
+ margin-left: 0px;
+}
+/* Fine Barre stati di carica */
+
+
+/* Inizio definizione della grandezza dei font */
+.font-size-1{
+  font-size: 35px;
+}
+
+.font-size-2{
+  font-size: 25px;
+}
+
+.font-size-3{
+  font-size: 15px;
+}
+/* Fine definizione della grandezza dei font */
+
+
+/* Spaziatura deglie elementi all'interno del riquadro */
+.Spaziatura{
+  padding-top: 5px;
+}
